@@ -85,3 +85,50 @@ header,nav,main,footer,aside{
 
 p:first-line{
     font-size: large;
+/* Desktop Layout */
+    @media screen and (min-width: 1024px){
+        body{
+            max-width:75rem;
+            width:100%;
+            display:grid;
+            grid-template-columns: auto auto auto auto auto;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            background: linear-gradient(to bottom, #765729, #000000);
+            border-image-slice: 1;
+        }
+        footer{
+            width:100%;
+            padding: 0;
+            background: rgba(206, 203, 196);  
+        }
+        nav{
+            background: rgba(206, 203, 196);   
+        }
+        aside{
+            width: auto;
+            background: rgba(206, 203, 196);  
+        }    
+  
+        main{
+            grid-column-start: 1;
+            grid-column-end:5;
+            padding:0.625rem;
+            background: rgba(206, 203, 196);  
+        }
+        header,nav,footer{
+            grid-column-start: 1;
+            grid-column-end: 6;
+        }
+        #cover{
+            max-width: 32%;
+        }
+        #cryptogram{
+            width:73%;
+            margin-left: auto;
+            margin-right:auto;
+        }
+    }
+/* i used https://www.w3schools.com/w3css/w3css_tags.asp as help
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
