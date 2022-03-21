@@ -130,5 +130,21 @@ p:first-line{
             margin-right:auto;
         }
     }
+        /* Tablet Layout */
+        @media screen and (min-width: 768px) and (max-width: 1023px){
+            header h1{
+                font-size: xxx-large;
+            }
+            h2{
+                grid-column: 1/-1;
+            }
+            aside{
+                display:grid;
+                grid-template-columns: 2fr 2fr 2fr;
+            }
+            #cover{
+                max-width: 35%;
+            }        
+        }
 /* i used https://www.w3schools.com/w3css/w3css_tags.asp as help
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
