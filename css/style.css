@@ -17,3 +17,71 @@ header{
     background-position: center;
 
 }
+nav li{
+    font-size:large;
+    border-right: solid;
+    border-right: double;
+    border-width: 3px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+nav li:last-of-type{
+    border: none;
+}
+div.submission{
+    border: 0.063rem solid black;
+    padding: 1.25rem;
+    margin: 1.25rem;
+    background-color: rgba(255,255,255,0.8);
+}
+div.signature{
+    float:right;
+    font-style: italic;
+}
+h1{
+    padding: 0.625rem;
+    font-family: Georgia;
+    font-weight: bold;
+    color:white;
+}
+span{
+    font-weight: bold;
+}
+:lang(fr){
+    font-weight: normal;
+    font-style:italic;
+}
+:lang(is){
+    font-style:italic;
+    font-weight: normal;
+}
+:lang(it){
+    font-style:italic;
+    font-weight: normal;
+}
+
+h2{
+    border-bottom: 1px dotted #000000 
+}
+
+a{
+    color:black;
+    text-decoration:none;
+}
+a:hover{
+    color: #A52A2A;
+}
+header,nav,main,footer,aside{
+    opacity: 0.75;
+}
+
+#cover{
+    float: left;
+    padding-right: 0.938rem;
+    max-width: 72%;
+}
+
+
+p:first-line{
+    font-size: large;
