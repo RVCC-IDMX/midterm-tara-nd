@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 /* Journey to the Center of the Earth Practicum */
 /* Tara Nordmann */
 
 /*   layout */
+=======
+/*Journey to the Center of the Earth Practicum*/
+/*Tara Nordmann*/
+>>>>>>> eb59a1742960d22d6a5218a53fd951e53896bc17
 body{
     border: #886644;
     background: rgba(206, 203, 196);  
@@ -14,6 +19,7 @@ header{
     box-shadow: 3.125rem 0.625 rem 0.625rem 0.625rem rgba(63, 51, 51, 0.2);
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
+<<<<<<< HEAD
     border:5px outset #886644;
     background-image: url('../img/cave.jpg');
     background-size: 100%;
@@ -51,6 +57,13 @@ figcaption{
 }
 
 
+=======
+    opacity: 1;
+    background-image: url('../img/cave.jpg');
+    background-position: center;
+
+}
+>>>>>>> eb59a1742960d22d6a5218a53fd951e53896bc17
 nav li{
     font-size:large;
     border-right: solid;
@@ -119,6 +132,7 @@ header,nav,main,footer,aside{
 
 p:first-line{
     font-size: large;
+<<<<<<< HEAD
 }
 /* Tablet Layout */
     @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -137,6 +151,8 @@ p:first-line{
         }        
     }
 
+=======
+>>>>>>> eb59a1742960d22d6a5218a53fd951e53896bc17
 /* Desktop Layout */
     @media screen and (min-width: 1024px){
         body{
@@ -182,6 +198,27 @@ p:first-line{
             margin-right:auto;
         }
     }
+<<<<<<< HEAD
 /* i used https://www.w3schools.com/w3css/w3css_tags.asp as help
 https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
 /* i used the code from ryan and matilda as help and layout.i mainly used matilda's as help for the layout and structure, ryan for the right commands, additionally matilda's as well.*/
+=======
+        /* Tablet Layout */
+        @media screen and (min-width: 768px) and (max-width: 1023px){
+            header h1{
+                font-size: xxx-large;
+            }
+            h2{
+                grid-column: 1/-1;
+            }
+            aside{
+                display:grid;
+                grid-template-columns: 2fr 2fr 2fr;
+            }
+            #cover{
+                max-width: 35%;
+            }        
+        }
+/* i used https://www.w3schools.com/w3css/w3css_tags.asp as help
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
+>>>>>>> eb59a1742960d22d6a5218a53fd951e53896bc17
