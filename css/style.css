@@ -1,2 +1,19 @@
 /*Journey to the Center of the Earth Practicum*/
 /*Tara Nordmann*/
+body{
+    border: #886644;
+    background: rgba(206, 203, 196);  
+    box-shadow:0.625rem 0.625rem 0.313rem grey inset;
+    background-attachment: fixed;
+}
+header{
+    padding: 0.125 rem;
+    text-align: center;
+    box-shadow: 3.125rem 0.625 rem 0.625rem 0.625rem rgba(63, 51, 51, 0.2);
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    opacity: 1;
+    background-image: url('../img/cave.jpg');
+    background-position: center;
+
+}
